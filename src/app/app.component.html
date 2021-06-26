@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>realstate</title>
+</head>
+<body>
+  <h3 style="text-align: center; background-color: violet; height: 100px;">Swamy Real Estate Agencys</h3>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" routerLink="#">
+      <img src="./assets/image1.jpg" alt="no img" width="70px"height="70px">
+    </a>
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/home">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/forsales">For Sale</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/forrent">For Rent</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/about">About</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./assets/image5.jpg" alt="no img" width="2100px" height="1000px">
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/image5.jpg" alt="no img" width="2100px"  height="1000px">
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/image5.jpg" alt="no img" width="2100px"  height="1000px">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" routerLink="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" routerLink="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<router-outlet></router-outlet>
+<div class="card">
+  <div class="card-footer bg-dark text-center">
+    © 2023 by Swamy Real Estate. Proudly created by swamy
+  </div>
+</div>
+</body>
+</html>

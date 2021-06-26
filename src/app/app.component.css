@@ -1,0 +1,12 @@
+.nav-item{
+    display: flex;
+    margin-left: 100px;
+}
+.carousel-caption,h3{
+    color:rgb(2, 2, 2);
+    font-size: 400%;
+    font-style: italic;
+}
+.card-footer{
+    color: whitesmoke;
+}
